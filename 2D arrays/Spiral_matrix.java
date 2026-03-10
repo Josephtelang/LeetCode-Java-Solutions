@@ -1,3 +1,9 @@
+// Problem: Spiral matrix
+// Difficulty: medium
+// Time Complexity: O(n * m)
+// Space Complexity: O(n * m)
+
+
 import java.util.*;
 public class Spiral_matrix {
 
@@ -23,13 +29,12 @@ public class Spiral_matrix {
         while(start_row <= end_row && start_col <= end_col){
             // top
             for (int j =start_col ; j<= end_col ; j++){
-                System.out.print(matrix[start_row][j]+" ");
                 result.add(matrix[start_row][j]);
             }
 
             // right
             for (int i=start_row +1 ; i<= end_row ; i++){
-                System.out.print(matrix[i][end_col]+" ");
+         
                 result.add(matrix[i][end_col]);
             }
 
@@ -38,7 +43,7 @@ public class Spiral_matrix {
                 if (start_row == end_row){
                     return result;
                 }
-                System.out.print(matrix[end_row][j]+ " ");
+        
                 result.add(matrix[end_row][j]);
             }
 
@@ -47,7 +52,7 @@ public class Spiral_matrix {
                 // if (start_col == end_col){
                 //     return result;
                 // }
-                System.out.print(matrix[i][start_col]+" ");
+                
                 result.add(matrix[i][start_col]);
             }
             start_row ++;
@@ -55,7 +60,7 @@ public class Spiral_matrix {
             end_row --;
             end_col --;
         }
-        System.out.println();
+       
         return result;
         
     }
