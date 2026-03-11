@@ -14,7 +14,14 @@ public class Spiral_matrix {
             {9,10,11,12}
         };
 
-        System.out.println(spiralOrder(matrix));
+        int matrix2[][] ={
+            {1,2,3},
+            {4,5,6},
+            {7,8,9},
+            {10,11,12}
+        };
+
+        System.out.println(spiralOrder(matrix2));
 
 
     }
@@ -49,9 +56,9 @@ public class Spiral_matrix {
 
             // left
             for (int i = end_row -1 ; i>= start_row+1 ; i-- ){
-                // if (start_col == end_col){
-                //     return result;
-                // }
+                if (start_col == end_col){
+                    return result;
+                }
                 
                 result.add(matrix[i][start_col]);
             }
