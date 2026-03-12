@@ -3,7 +3,7 @@
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 
-public class Trapping_rainwater {
+public class Trapping_rainwater_02 {
     public static void main(String arg[]){
         int hight[] = {4,2,0,3,2,5};
         System.out.println("The total trapped water is : "+trap(hight));

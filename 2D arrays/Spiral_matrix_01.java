@@ -5,7 +5,7 @@
 
 
 import java.util.*;
-public class Spiral_matrix {
+public class Spiral_matrix_01 {
 
     public static void main(String arg[]){
         int matrix[][] = {

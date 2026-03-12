@@ -3,7 +3,7 @@
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 
-public class Search_in_rotated_sorted_arr {
+public class Search_in_rotated_sorted_arr_05 {
     public static void main(String arg[]){
         int nums[] = {4,5,6,7,0,1,2};
         int target = 0;

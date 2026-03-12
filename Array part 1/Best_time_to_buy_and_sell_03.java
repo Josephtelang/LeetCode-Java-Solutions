@@ -3,7 +3,7 @@
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 
-public class Best_time_to_buy_and_sell {
+public class Best_time_to_buy_and_sell_03 {
     public static void main(String arg[]){
         int prices[] = {7,1,5,3,6,4};
         System.out.println("The max profit is : "+maxProfit(prices));

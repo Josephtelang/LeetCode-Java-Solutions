@@ -9,7 +9,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Three_Sum{
+public class Three_Sum_04{
     public static void main(String arg[]){
         int arr[] = {-1,0,1,2,-1,-4};
 

@@ -1,10 +1,10 @@
 // Problem: Diagonal_sum
 // Difficulty: easy
-// Time Complexity: brute force = O(n^2), optimize method = O()
-// Space Complexity: brute force = O(1), optimize method = O()
+// Time Complexity: brute force = O(n^2), optimize method = O(n)
+// Space Complexity: brute force = O(1), optimize method = O(1)
 
 
-public class Diagonal_sum {
+public class Diagonal_sum_02 {
     public static void main(String arg[]){
         int matrix[][] = {
             {1,2,3,4},
@@ -14,6 +14,7 @@ public class Diagonal_sum {
         };
 
         System.out.println("Sum of primary and secondary diagonal : "+diagonalSum_brute_force(matrix));
+        System.out.println("Sum of primary and secondary diagonal : "+diagonalSum_optimized(matrix));
 
     }
 
@@ -32,4 +33,22 @@ public class Diagonal_sum {
         return sum;
         
     }
+
+    public static int diagonalSum_optimized(int[][] mat) {
+        int sum = 0;
+        for (int i =0 ; i<mat.length ; i++){
+            // primary diagonal
+            sum += mat[i][i];
+
+            // secondary diagonal
+            if (i != mat.length-1-i){
+                sum += mat[i][mat.length-1-i];
+            }
+            
+        }
+        return sum;
+        
+    }
+
+
 }
