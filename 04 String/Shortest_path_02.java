@@ -1,4 +1,7 @@
-
+// Problem: Shortest path
+// Difficulty: easy
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 public class Shortest_path_02 {
     public static void main(String arg[]){
         String path = "WNEENESENNN";
