@@ -26,10 +26,10 @@ public class Valid_palindrome_01 {
             if(Character.toLowerCase(s.charAt(i))!=Character.toLowerCase(s.charAt(j))){
                 return false;
             }
-            else{
-                i++;
-                j--;
-            }
+            
+            i++;
+            j--;
+            
             
 
         }
