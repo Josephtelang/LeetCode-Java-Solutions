@@ -3,7 +3,7 @@
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 
-public class Single_number01 {
+public class Single_number_01 {
     public static void main(String arg[]){
         int arr[] = {4,1,2,1,2};
         System.out.println("The single number in array is : "+singleNumber(arr));
