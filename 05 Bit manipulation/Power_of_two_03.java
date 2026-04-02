@@ -1,3 +1,8 @@
+// Problem: Power of two 
+// Difficulty: easy
+// Time Complexity: O(1)
+// Space Complexity: O(1)
+
 public class Power_of_two_03 {
     public static void main(String arg[]){
         System.out.println("Is n power of 2 : "+isPowerOfTwo(4));
