@@ -13,20 +13,18 @@ public class Number_of_1_bits_02 {
     public static int hammingWeight(int n) {
         int count = 0;
         // int bitmask = 1;
-        if(n>0){
-            // while(n!=0){
-            //     if((n & bitmask) !=0){
-            //         count++;
-            //     }
-            //     n = n >> 1;
-            // }
-            
+        // while(n!=0){
+        //     if((n & bitmask) !=0){
+        //         count++;
+        //     }
+        //     n = n >> 1;
+        // }
+        
 
-            //Optimized one 
-            while(n!=0){
-                n = n & (n-1);
-                count++;
-            }
+        //Optimized one 
+        while(n!=0){
+            n = n & (n-1);
+            count++;
         }
         
         return count;
