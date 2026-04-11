@@ -1,5 +1,5 @@
 
-// Problem: Fibonacci Numbers
+// Problem: Pow (x,n)
 // leetCode: 50        Google, Amazon
 // Difficulty: medium
 // Time Complexity: O(log n)
